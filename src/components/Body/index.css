@@ -1,0 +1,110 @@
+/* Write your CSS here */
+
+@media screen and (min-width: 768px) {
+  .body-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .left-navbar-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #cbd5e1;
+    padding: 10px;
+    width: 33%;
+
+    box-sizing: border-box;
+    flex-grow: 1;
+  }
+
+  .content-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f5f9;
+    padding: 10px;
+    width: 32%;
+
+    box-sizing: border-box;
+    flex-grow: 1;
+  }
+  .head {
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 23px;
+  }
+  .para {
+    color: #64748b;
+    font-family: 'Roboto';
+    font-size: 18px;
+  }
+  .btn1 {
+    color: #64748b;
+    border: #475569 1px solid;
+    margin: 10px;
+    padding: 30px;
+  }
+  .right-navbar-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #cbd5e1;
+    padding: 10px;
+    width: 30%;
+
+    box-sizing: border-box;
+    flex-grow: 1;
+  }
+  .unor-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+  .btn-c {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 767px) {
+  .body-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+  }
+  .btn-c {
+    display: flex;
+  }
+  .right-navbar-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #cbd5e1;
+    padding: 10px;
+    width: 100%;
+  }
+  .left-navbar-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #cbd5e1;
+    padding: 10px;
+    min-width: 100%;
+  }
+  .unor-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+  .btn1 {
+    color: #64748b;
+    border: #475569 1px solid;
+    margin: 10px;
+    padding: 30px;
+  }
+  .content-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f5f9;
+    padding: 10px;
+    min-width: 100%;
+  }
+}
